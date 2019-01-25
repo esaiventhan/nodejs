@@ -5,8 +5,8 @@ echo
 echo =================================================================
 echo updating `pwd` ...
 echo =================================================================
-git_email = `git config --get user.email` || true
-git_name = `git config --get user.name` || true
+git_email=`git config --get user.email` || true
+git_name=`git config --get user.name` || true
 
 if [ -z "$git_email"]
   then
